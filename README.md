@@ -5,6 +5,7 @@
 This project is a YouTube Clone built using the **MERN Stack** (MongoDB, Express, React, Node.js). It allows users to upload videos, watch videos, and interact with the content, similar to YouTube.
 
 ## Table of Contents
+
 - [Project Setup](#project-setup)
   - [Backend Setup](#backend-setup)
   - [Frontend Setup](#frontend-setup)
@@ -51,7 +52,9 @@ This project is a YouTube Clone built using the **MERN Stack** (MongoDB, Express
 
 
     /youtube-clone
+   
   /backend
+  
     /models           # MongoDB models (e.g., User, Video, Comment) 🧳
     /routes           # API routes (e.g., authRoutes.js, videoRoutes.js) 📍
     /controllers      # Business logic for API routes 🧠
@@ -60,6 +63,7 @@ This project is a YouTube Clone built using the **MERN Stack** (MongoDB, Express
     server.js         # Backend entry point 🌟
     .env              # Environment variables 🌳
   /frontend
+  
     /src
       /components     # React components (e.g., Navbar, VideoPlayer) 🧩
       /pages          # Pages (e.g., HomePage, UploadPage) 📃
@@ -68,7 +72,9 @@ This project is a YouTube Clone built using the **MERN Stack** (MongoDB, Express
       /index.js       # Entry point for React 💻
     package.json      # Frontend dependencies 📜
     .env              # Frontend environment variables 🌐
+    
   package.json        # Root package.json for managing dependencies 📦
+  
   README.md           # Project documentation 📖
 
 **Environment Variables Create a .env file in the backend directory with the following variables:**
